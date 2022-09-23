@@ -1,18 +1,35 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;;
 }
 
 .header {
-    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .header, .footer {
     background-color: #1F2937;
+    display: flex;
+    min-height: 35px;
 }
 
-.content {
+.level-1,.level-2,.level-3,.level-4 {
     display: flex;
+    min-height: 155px;
 }
 
 .level-1 {
@@ -20,14 +37,14 @@
 }
 
 .level-2 {
-
 }
 
 .level-3 {
     background-color: #E5E7EB;
+    
 }
 
 .level-4 {
-
 }
+
 
