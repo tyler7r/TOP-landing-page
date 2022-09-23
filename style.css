@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+}
+
+.level-1 {
+    background-color: #1F2937;
+}
+
+.level-2 {
+
+}
+
+.level-3 {
+    background-color: #E5E7EB;
+}
+
+.level-4 {
+
+}
+
