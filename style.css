@@ -41,6 +41,12 @@ a, .right-links {
     background-color: #1F2937;
 }
 
+#1-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
 .level-2 {
 }
 
