@@ -28,11 +28,13 @@ a, .right-links {
     background-color: #1F2937;
     display: flex;
     min-height: 35px;
+    padding: 8px 72px 0px 72px;
 }
 
 .level-1,.level-2,.level-3,.level-4 {
     display: flex;
     min-height: 155px;
+    padding: 24px 72px 0px 72px;
 }
 
 .level-1 {
@@ -49,5 +51,6 @@ a, .right-links {
 
 .level-4 {
 }
+
 
 
