@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
 
@@ -27,24 +27,58 @@ a, .right-links {
 .header, .footer {
     background-color: #1F2937;
     display: flex;
-    min-height: 35px;
-    padding: 8px 72px 0px 72px;
+    padding: 8px 100px 0px 100px;
 }
 
 .level-1,.level-2,.level-3,.level-4 {
     display: flex;
-    min-height: 155px;
-    padding: 24px 72px 0px 72px;
+    padding: 24px 100px 24px 100px;
 }
 
 .level-1 {
     background-color: #1F2937;
+    display: flex;
+    gap: 24px;
 }
 
-#1-title {
+.level-1 div {
+    flex: 1;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#title-1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8
+}
+
+#subtext-1 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-1 {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.placeholder {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .level-2 {
